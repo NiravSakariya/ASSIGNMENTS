@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Form</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Form.css'>
+    <script src='main.js'></script>
+    <style>
+      fieldset
+      {
+    background-color:rgb(110, 255, 3);
+    width: 60%;
+    height: 1300px;
+    margin-left: 20%;
+    text-align: center;
+
+}
+div 
+{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+    margin-left: 10%;
+    padding: 10px;
+    background-color: rgb(160, 255, 4);
+    font-style: Bold;
+    font-size: 20px;
+}
+form
+{
+   align-items: center; 
+   text-align: center;
+  
+   
+}
+
+label
+{
+    width: 100px;
+    height: 8px;
+}
+placeholder
+{
+    font-style:italic ;
+
+}
+input
+{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+    
+
+}
+
+h1
+{
+    text-align: left;
+}
+textarea
+{
+    width: 300px;
+    height: 90px;
+    border: 2px solid black;
+    
+}
+.Add
+{
+    height: 100px;
+    width:80% ;
+}
+button
+{
+  border-radius: 40px;
+  background-color: darkgreen;
+  color: white;
+  width: 200px;
+  height: 50px;
+  font-size: medium;
+}
+    </style>
+  </head>
+    <body>
+   
+    
+        <form  style  method="post" >
+        
+            
+            <fieldset   500px;>
+              <h1>Step 1: Your details</h1>
+              <div>  
+              <b> Name :</b><input type="text"  placeholder="Name *">
+              </div><br>
+              <div>  
+                <b> Email :</b><input type="email"  placeholder="Email *">
+                </div><br>
+              <div>  
+                 <b> Phone: </b><input type="number"  placeholder="Phone No. *">
+              </div><br>
+              
+              
+               <h1>Step 2: Delivery Address</h1>
+               <div class="Add">
+               <b> Address: </b> <textarea name="" id="" cols="30" rows="10"></textarea>
+               </div><br>
+               <div>  
+               <b>Postal :</b><input type="text"  placeholder="Postal Code *">
+               </div><br>
+               <div><b> Country :</b><input type="text"  placeholder="Country *">
+               </div><br>
+
+              
+               <h1>Step 3 : Card Details</h1>
+               
+               <div>Card Type <br> 
+               <b style="color: black;">Visa</b>
+               <input type="radio"  name="gender" required style="height: auto; width:auto">
+               <b style="color: black;"> AmEx</b>
+               <input type="radio"  name="gender" required style="height: auto; width:auto;">
+               <b style="color: black;">MasterCard</b>
+               <input type="radio"  name="gender" required style="height: auto; width:auto;"><br><br><br>
+               <div>  
+               <b><b> Card Number :</b></b><input type="text"  placeholder="Name *">
+               </div><br>
+               <div>  
+               <b> Security Code : </b><input type="email"  placeholder="Email *">
+               </div><br>
+               <div>  
+               <b>Name On Card  : </b><input type="number"  placeholder="Phone No. *">
+               </div><br>                  
+               <button>BUY IT!</button>
+                </fieldset>
+        
+        </form>
+    </table>
+    </body>
+</html>
+
+
+
+
+
